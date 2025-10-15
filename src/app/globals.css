@@ -83,6 +83,12 @@
   }
 }
 
+@page {
+  /* Using A2 dimensions as a fallback for the non-standard "A2.8" */
+  size: A2;
+  margin: 1cm;
+}
+
 @media print {
   body {
     background: white !important;

@@ -50,7 +50,7 @@ const skillCategories = {
 };
 
 export default function ResumePreview({ data }: ResumePreviewProps) {
-  const profilePicUrl = '/profile.png';
+  const profilePicUrl = process.env.NEXT_PUBLIC_PROFILE_PIC_URL;
 
   const getCategorizedSkills = () => {
     if (!data.skills) return {};

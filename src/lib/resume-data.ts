@@ -6,7 +6,7 @@ export const initialResumeData: ParseResumeDataOutput = {
   phone: "+91 7985042683",
   location: "Shahjahanpur, India",
   github: "https://github.com/riya810sri?tab=repositories",
-  linkedin: "https://www.linkedin.com/in/riya-srivastava5649b72a6/",
+  linkedin: "https://www.linkedin.com/in/riya-srivastava-5649b72a6/",
   objective:
     "Creative and results-driven Computer Science undergraduate skilled in React.js, JavaScript, and UI/UX. Seeking a front-end internship at a dynamic startup to deliver high-impact, scalable web experiences.",
   education: [
@@ -24,7 +24,7 @@ export const initialResumeData: ParseResumeDataOutput = {
     },
   ],
   skills: [
-    "JavaScript", "Python", "java", "HTML", "CSS", "SQL",
+    "JavaScript", "Python", "java", "HTML", "CSS", "SQL", "MongoDB", "MySQL", "Express.js",
     "React.js", "Node.js", "Chart.js", "Tailwind CSS",
     "Git", "GitHub", "Firebase", "VS Code", "APIs",
     "Responsive Design", "REST APIs", "UI/UX Principles", "Web Security Basics"
@@ -57,6 +57,12 @@ export const initialResumeData: ParseResumeDataOutput = {
   ],
   experience: [
     {
+      title: "MERN Stack Intern",
+      company: "Durbhasi Gurukulam Private Limited",
+      dates: "6 Months",
+      description: "Gained hands-on experience with the MERN stack (MongoDB, Express.js, React.js, Node.js), Java, and MySQL. Contributed to the development of web applications, focusing on both front-end and back-end tasks.",
+    },
+    {
       title: "Virtual Technology Intern",
       company: "Deloitte Simulation",
       dates: "Jun 2025",
@@ -73,6 +79,13 @@ export const initialResumeData: ParseResumeDataOutput = {
       company: "Aadi Foundation",
       dates: "Oct–Nov 2024",
       description: "Created mobile-friendly pages and improved site usability.",
+    },
+    {
+      title: 'Wix Website Designer',
+      company: 'Tech for Women',
+      dates: 'Date Range (Placeholder)',
+      description:
+        'Designed and developed a website with a “Women in Tech” theme using Wix. Responsibilities included customizing templates, creating layouts and color schemes, and performing market research to enhance website structure and content for a user-centric experience.',
     },
   ],
   certifications: [
